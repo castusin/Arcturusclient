@@ -30,6 +30,7 @@ angular.module('starter.HelpCtrl', ['ngStorage'])
 
             $localStorage.patname= patientName;
 
+             $scope.popover.hide();
 
         }
 
